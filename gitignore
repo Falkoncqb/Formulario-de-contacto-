@@ -1,0 +1,54 @@
+# Archivos de configuración sensibles
+contact.php.backup
+config.php
+
+# Archivos de base de datos
+*.sql.backup
+*.sql~
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Carpetas de caché
+cache/
+tmp/
+
+# Archivos de backup
+*.bak
+backup/
+
+# Variables de entorno (si las usas)
+.env
+.env.local
+
+# Archivos subidos por usuarios (si aplica)
+uploads/
+images/temp/
+
+# Archivos de compresión
+*.zip
+*.tar.gz
+*.rar
+
+# Node modules (si agregas herramientas de build)
+node_modules/
+package-lock.json
+
+# Archivos de cPanel
+.cpanel/
+.htpasswds/
+.lastlogin
